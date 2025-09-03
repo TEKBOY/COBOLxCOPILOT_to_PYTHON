@@ -36,7 +36,7 @@ class TestDataProgram(unittest.TestCase):
 
     def test_strip_operation(self):
         self.dp.process_operation('  WRITE  ', 777.77)
-        self.assertEqual(self.dp.storage_balance, 787.77)
+        self.assertEqual(self.dp.storage_balance, 777.77)
 
 if __name__ == '__main__':
     unittest.main()
