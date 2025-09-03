@@ -1,6 +1,5 @@
 print(">>> main.py is running")   # debug au lancement
-
-from operation import Operations
+from operations import Operations
 
 def main():
     ops = Operations()
