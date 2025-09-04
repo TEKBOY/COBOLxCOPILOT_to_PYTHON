@@ -5,6 +5,7 @@ from operations import Operations
 class TestOperations(unittest.TestCase):
     def setUp(self):
         self.ops = Operations()
+        self.ops.data_program.reset_balance()
 
     @patch('builtins.print')
     def test_total_operation(self, mock_print):
